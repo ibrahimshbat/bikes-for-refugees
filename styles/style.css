@@ -146,6 +146,7 @@ body {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
+	box-sizing: border-box;
 	  
   }
   .flex-item {
@@ -158,8 +159,14 @@ body {
 	line-height: 150px;
 	color: white;
 	font-weight: bold;
-	font-size: 1.5em;
+	font-size: 1.2em;
 	text-align: center;
 	
+	
   }
-  
+  ul li:first-child{
+	border:1px solid #ddd;
+  }
+  ul li:last-child{
+	background:#ddd;
+  }
