@@ -35,8 +35,21 @@ body {
 /* Buttons */
 .btn {
 	border-radius: 0.15em;
+	background:#ce5f31;
 }
 
+.btn:hover,
+.btn:focus {
+    background: #080a7e;
+}
+.bbtn {
+	border-radius: 0.15em;
+	background:#ce5f31;
+}
+.bbtn:hover,
+.bbtn:focus {
+    background: #bddb10;
+}
 /* Alert */
 .alert {
 	position: relative;
@@ -119,9 +132,8 @@ body {
 	margin-bottom: 0;
 }
 
-@media screen and (min-width: 992px) {
-
-	.navbar-brand > img {
-	   max-height: 80px;
+@media screen and (min-width: 900px) {
+	body {
+		background: red;
 	}
 }
